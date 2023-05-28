@@ -1,0 +1,43 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 30px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a.active {
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+.header-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:blueviolet;
+    background-color:turquoise
+}
+
+.album-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-link {
+    text-decoration: none;
+}
