@@ -41,3 +41,7 @@ ul {
 .album-link {
     text-decoration: none;
 }
+
+.album-item img {
+    max-width: 1000px;
+}
